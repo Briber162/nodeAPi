@@ -28,12 +28,9 @@ const getQuotes = async() => {
         getNewQuotes();
         // console.log(realData);
         // console.log(realData[10].author);
-    } catch (error) {
-
-    }
-
+    } catch (error) {}
 }
-
 newQuotes.addEventListener("click", getNewQuotes);
 tweetMe.addEventListener("click", tweetNow);
 getQuotes();
+
